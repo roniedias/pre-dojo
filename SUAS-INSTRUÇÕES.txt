@@ -1,2 +1,38 @@
-Coloque aqui suas instru��es ou coment�rios que ache �til/relevantes para possamos ler 
-quando estivermos avaliando a sua solu��o
+Olá!!!
+
+Para solucionar o problema proposto, não utilizei nenhum framework em específico. Criei o projeto Amil com a seguinte estrutura:
+
+  - br.com.amil (package)
+    -- LogReader.java
+    -- Main.java
+    
+  - br.com.amil.model (package)
+    -- Event.java
+    -- Player.java
+    
+  - br.com.amil.test (package)
+    -- Teste
+
+
+PACOTE br.com.Amil (classes LogReader e Main)
+
+A classe que contém as rotinas para leitura do arquivo de log é a LogReader. No momento de sua instanciação, deve (no construtor) ser informado o caminho onde se encontra o arquivo de log a ser lido. Nela estão contidos os métodos que fazem toda a "magia acontecer", criando objetos com base nas informações contidas no arquivo de log.
+
+Além da classe LogReader, encontra-se também neste pacote uma classe de nome Main. Nela existe um método tão conhecido pelos desenvolvedores Java, do tipo public static void main(String[] args). Seu propósito é exibir um output contendo os resultados propostos no desafio.
+
+
+PACOTE br.com.amil (classes Event e Player)
+
+As classes Event e Player contidas neste pacote são POJO's, utilizados tanto pela classe LogReader quanto pela classe Teste.
+
+
+PACOTE br.com.amil.test
+
+Neste pacote foi disponibilizada a classe Teste, que contém alguns casos para teste. Para este fim, foi utilizado o Framework JUnit.
+
+Qualquer dúvida, estou à disposição.
+Obrigado!
+
+Ronie Dias Pinto
++55 11 98674-4103
+roniedias@yahoo.com
